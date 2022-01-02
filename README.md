@@ -10,7 +10,7 @@ In this game, you can either play against a computer player in single player or 
 ```
 git clone https://github.com/jancgarcia3/Tic-Tac-Toe.git
 cd Tic-Tac-Toe
-python3 Tic-Tac-Toe.py
+python3 TicTacToe.py
 ```
 
 ### Written: 
