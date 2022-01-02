@@ -7,7 +7,7 @@ In this game, you can either play against a computer player in single player or 
 
 
 ### Written: 
-Python 3.8.9
+Python 3
 
 ### Author: 
 Jan C Garcia
