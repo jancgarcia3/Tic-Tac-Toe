@@ -8,7 +8,7 @@ In this game, you can either play against a computer player in single player or 
 ## Screenshot:
 
 <p align="center">
-<img width=1000 src="/Images/TicTacToe Screenshot.png">
+<img width=500 src="/Images/TicTacToe Screenshot.png">
 
 </p>
 
