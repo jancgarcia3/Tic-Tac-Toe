@@ -1,6 +1,4 @@
 # Tic-Tac-Toe
-A Basic Tic-Tac_Toe Terminal Game Written in Python.
-
 This repository contains a basic terminal program written in python and it is based of the popular game: Tic-Tac-Toe. 
 
 ## Description:
