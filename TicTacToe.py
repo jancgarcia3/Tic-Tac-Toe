@@ -65,7 +65,8 @@ class Players(Board):
                     self.display_board()
                     position = int(input("Player 1 enter a position from 1-9: "))
                     while (position > 9) or (position < 1):
-                        position = int(input("Player 1 enter a position from 1-9: " + "\n"))
+                        self.display_board()
+                        position = int(input("Player 1 enter integers only! Pick a position from 1-9: "))
                     position = position - 1
                     if position not in self.track_position:
                         self.track_position.append(position)
@@ -75,15 +76,14 @@ class Players(Board):
                     self.display_board()
                     position = int(input("Player 2 enter a position from 1-9: "))
                     while (position > 9) or (position < 1):
-                        position = int(input("Player 2 enter a position from 1-9: " + "\n"))
+                        position = int(input("Player 2 enter integers only! Pick a position from 1-9: " + "\n"))
                     position = position - 1
                     if position not in self.track_position:
                         self.track_position.append(position)
                         self.board[position] = player
                         break
             except:
-                print("\n" + "Only enter a position not used from 1-9")
-                self.display_board() 
+                print("\n" + "Enter integers only! Pick a position from 1-9: ")  
 
     # The method for the computer to take its turn.
     # The computer turns are progrommed randomly to pick an availiable spot on the board.
